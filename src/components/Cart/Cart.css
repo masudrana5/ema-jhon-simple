@@ -1,0 +1,9 @@
+.cart-container{
+   margin: 0 1rem;
+   max-height: 500px;
+   position: sticky;
+   top: 0;
+}
+.cart-title{
+   text-align: center;
+}
