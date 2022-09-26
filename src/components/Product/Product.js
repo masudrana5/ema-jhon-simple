@@ -5,11 +5,11 @@ import './Product.css';
 
 const Product = (props) => {
    const { handleAddToCart, product } = props;
-   const { name, category, seller, price, stock, ratings, img } = product;
+   const { name, seller, price, ratings, img } = product;
    return (
       <div className='single-container'>
          <div className='single-product'>
-            <img src={img} alt="" />
+            <img src={img ? img : 'url'} alt="" />
             <h2 className='single-product-title'>{name}</h2>
             <h4 className='single-product-price'>Price: ${price}</h4>
             <p><small>Manufucture: {seller}</small></p>
