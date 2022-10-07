@@ -9,7 +9,7 @@ const Product = (props) => {
    return (
       <div className='single-container'>
          <div className='single-product'>
-            <img src={img ? img : 'url'} alt="" />
+            <img src={img ? img : 'https://i.ebayimg.com/thumbs/images/g/yE0AAOSwNoVfPlUO/s-l225.webp'} alt="No images" />
             <h2 className='single-product-title'>{name}</h2>
             <h4 className='single-product-price'>Price: ${price}</h4>
             <p><small>Manufucture: {seller}</small></p>

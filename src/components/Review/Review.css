@@ -1,0 +1,27 @@
+.review-container{
+   display: flex;
+   align-items: center;
+   background-color: aliceblue;
+   width: 50%;
+   margin: 15px auto;
+   border-radius: 15px;
+   padding: 7px;
+}
+.review-container img{
+   width: 80px;
+   margin-right: 15px;
+}
+.review-product-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 80%;
+}
+.product-delete button{
+   font-size: 1.5rem;
+   color: red;
+   border: 0;
+   box-shadow: 0 0 2px 1px;
+   cursor: pointer;
+   border-radius: 3px;
+}

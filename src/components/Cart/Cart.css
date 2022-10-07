@@ -2,7 +2,7 @@
    margin: 0 1rem;
    max-height: 500px;
    position: sticky;
-   top: 0;
+   top: 80px;
 }
 .cart-title{
    text-align: center;
